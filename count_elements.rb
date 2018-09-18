@@ -4,5 +4,5 @@ def count_elements(array)
   array.each { |animal| new_hash[animal] +=1
   }
   end
-end
+  
  new_hash
