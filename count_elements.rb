@@ -1,6 +1,6 @@
 def count_elements(array)
   # code goes here
-  new_hash = {}
+  new_hash = Hash.new
   array.each { |animal| new_hash[0] +=1
   }
   end
